@@ -1,35 +1,51 @@
+# ✈️ Jet Fighter Multiplayer
 
+A multiplayer arcade-style **Jet Fighter** game built using a client-server architecture. Two players connect to a central server and battle each other in real time.
 
-# RoadFighter   :red_car: :blue_car: :video_game:
+## 🎮 Gameplay
 
-A 2 D Car Racing game made using HTMl , CSS & Javascript .In which the player can control the movement of the car using Arrow keys from keyboard to move away from incoming cars and obstacles.
+- Two-player multiplayer game
+- Real-time client-server communication
+- Arcade-style jet fighter combat
 
+## 📜 Rules
 
-#### Table of Contents  
-[Features](#Features)  
-[Installing](#Installing)
+- Each player's objective is to **shoot down the opponent's jet**.
+- Every successful hit awards **1 point**.
+- The **first player to reach 5 points wins** the game.
 
-
-
-## Features 
-
-
-- [x] Control Player car movement with Arrow keys
-- [x] Two modes with different background
-- [x] Multiple enemy cars and obstruction
-- [x] Collision Detection
-- [ ] Random enemy car movement
-- [ ] Difficulty Level
-
-
-
-
-
-
-### Installing
+## 🏗️ Project Structure
 
 ```
-Run index.html on browser (eg. Chrome)
+jet_fighter_multiplayer/
+├── Server/
+├── Client/
+└── README.md
 ```
 
-![Badge](https://img.shields.io/badge/Made%20by-Amol%20Dalwai-red?style=for-the-badge)
+- **Server** – Handles game state, player connections, and communication.
+- **Client** – Runs the game interface for each player.
+
+## 🚀 Running the Game
+
+### 1. Start the Server
+
+Run the server application first.
+
+**Server Port:** `8200`
+
+### 2. Start the Clients
+
+Launch the client application on two different machines (or two instances on the same machine) and connect them to the server.
+
+## 🛠️ Features
+
+- Real-time multiplayer gameplay
+- Client-server architecture
+- Score tracking
+- Win detection
+- Smooth arcade-style controls
+
+## 🏆 Winning Condition
+
+🎯 The first player to score **5 points** wins the match.
